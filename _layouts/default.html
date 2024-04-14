@@ -1,21 +1,25 @@
-<!DOCTYPE HTML>
-<!--
-	Read Only by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-    {% include /head.html %}
-    <body>
-        <div id="wrapper">
-        {% include /header.html %}
+---
+layout: base
+---
 
-            <!-- Main -->
-            <div id="main">
-                {{ content }}
+<div class="intro-header"></div>
 
-            </div>
-            {% include /footer.html %}
-		</div>
-	</body>
-</html>
+<main class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">
+  {% if page.before-content %}
+    <div class="before-content">
+      {% for file in page.before-content %}
+        {% include {{ file }} %}
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  {{ content }}
+
+  {% if page.after-content %}
+    <div class="after-content">
+      {% for file in page.after-content %}
+        {% include {{ file }} %}
+      {% endfor %}
+    </div>
+  {% endif %}
+</main>
