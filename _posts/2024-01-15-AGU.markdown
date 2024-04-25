@@ -4,6 +4,6 @@ title:  "Field-Scale Agricultural Emissions Modeling"
 date:   2024-01-15
 ---
 <img src="{{ site.baseurl }}/images/pic02.jpg">
-I co-authored an emissions modeling abstract (https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1395322) that was accepted and presented at the 2023 AGU conference. 
+I co-authored an emissions modeling [abstract](https://agu.confex.com/agu/fm23/meetingapp.cgi/Paper/1395322) that was accepted and presented at the 2023 AGU conference. 
 
 The presentation available for download [here] (https://ngbasch.github.io/2023_AGU_presentation.pptx).
