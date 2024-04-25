@@ -29,7 +29,7 @@
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: solid 1px #e4e4e4;
-		color: inherit;
+		color: #72a1cc;
 		text-decoration: none;
 	}
 
