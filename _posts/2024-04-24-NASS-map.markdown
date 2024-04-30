@@ -8,7 +8,7 @@ date:   2024-04-24
 As part of Indigo's hiring process, I built an interactive [map](https://ngbasch.shinyapps.io/Indigo/) in R Shiny to visualize USDA NASS agricultural data.
 
 The app contains three core tabs:
-- A U.S. choropleth showing county-level rates of area planted, area harvested, or yield, with filters for crop and year.
+- A U.S. choropleth map showing county-level rates of area planted, area harvested, or yield, with filters for crop and year.
 - An interactive plot viewer allowing user to visualize various year-over-year trends.
 - A data table with column filters 
 
