@@ -39,7 +39,7 @@ Key explainability metrics including global metrics (variable importance, depend
 
 ## How does it actually work?
 
- I built this model report to be fully modular The repo structure contains three key mechanisms that help us make this report more extensible.
+ The repo structure contains three key mechanisms that help us make this report more modular and extensible.
 
 - General RMarkdown code: `model-report.Rmd` and all `/children/` files help us generate the bones of the html report. **These files will stay constant across reports.**
 - Project-specific R code: After the user creates a directory and adds `/src` folder, they can customize how data is read, cleaned, feature engineered, and modeled. **These files will be unique to a given project/report.**
