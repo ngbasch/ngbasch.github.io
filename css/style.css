@@ -1014,7 +1014,7 @@
 				#header > nav ul li a {
 					-moz-transition: none;
 					-webkit-transition: none;
-					-o-transition: none;
+					-o-transition: none;#head
 					-ms-transition: none;
 					transition: none;
 					border: 0;
@@ -1026,7 +1026,7 @@
 
 					#header > nav ul li a.active, #header > nav ul li .cc-active {
 						background: #fff;
-						color: #214e75 !important;
+						color: #87b9e6 !important;
 					}
 
 				#header > nav ul li:first-child {

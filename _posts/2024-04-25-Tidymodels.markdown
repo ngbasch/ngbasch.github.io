@@ -14,25 +14,25 @@ I was motivated to build this report for a few reasons:
 2. **Easier tracking of model development**: There's no worse feeling as a data scientist than a model is running as expected one day but then produces an unexpected result the next day with no meaningful explanation. This dreaded dynamic can require hours of de-bugging to answer the basic question: "what happened?". My report (hopefully) makes that question far easier to answer as it creates **clear artifacts** of model performance. By comparing reports over time and seeing if/how the underlying data, feature engineering, or model specs change, the model report makes it far easier to understand why and how the model has changed. The report encourages easier and more frequent "deep dives" into a model, making evaluation, improvement, and de-bugging a lot easier.
 3. **Easier collaboration**:  In my experience, "final results" are most often copied into wiki pages, which can quickly get out of date and are painfully manual to update. In addition, when developing most models, there are some highly subjective choices that may have a large effect on model performance but are sometimes not communicated well (e.g., "why did you choose that hyperparameter?") A report like this leaves a clear paper trail of the model development lifecycle not only for the user, but also for their collaborators. 
 
-## How It's Orgainzed
+## How It's Organized
 Diving a bit deeper into the report, there are four key sections which I will describe in more detail below.
 
-**Data and Features**
+### Data and Features
 A description of data loading, cleaning and processing steps. Most importantly, it provides a set of visualizing the distributions of data, including
 
 <img src="{{ site.baseurl }}/images/tidy_eda.jpg">
 
-**Tidymodels Setup**
+### Tidymodels Setup
 A setup of R's `Tidymodels` package, including the defined model "recipe" (i.e., feature engineering steps) and model specification (e.g., random forest, xgboost). This section shows how the data was split for training and test.
 
 <img src="{{ site.baseurl }}/images/tidy_setup.jpg">
 
-**Tuning and Metrics**
+### Tuning and Metrics
 Model results, including potential parameter tuning opportunities. The tabs in this section contain useful summaries of model performance for both k-fold cross-validation as well as performance across the entire training/test data.
 
 <img src="{{ site.baseurl }}/images/tidy_metrics.jpg">
 
-**Expain**
+### Expain
 Key explainability metrics including global metrics (variable importance, dependence profiles) and local metrics (breakdown and stability plots).
 
 <img src="{{ site.baseurl }}/images/tidy_explain.jpg">
