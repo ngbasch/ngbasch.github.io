@@ -1008,7 +1008,7 @@
 			#header > nav ul li {
 				border-top: solid 1px #87b9e6;
 				display: block;
-				padding: 0;
+				padding: 0.85em 0;
 			}
 
 				#header > nav ul li a {
